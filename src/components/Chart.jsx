@@ -101,7 +101,7 @@ const Chart = ({ data }) => {
         ticks: {
           color: '#666',
           autoSkip: true,
-          maxTicksLimit: 10,
+          maxTicksLimit: 20,
         },
         grid: {
           color: '#e0e0e0', // Warna grid abu-abu lembut
@@ -109,6 +109,7 @@ const Chart = ({ data }) => {
       },
       y: {
         beginAtZero: true,
+        max: 100,
         ticks: {
           color: '#666',
         },
